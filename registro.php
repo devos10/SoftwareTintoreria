@@ -18,7 +18,7 @@
         <img id=imgReturn src="imagenes/return.png"
             width="40"
             height="40"
-
+        />
     </a>
            <!--Vista del menu-->
     <div id=menu>
