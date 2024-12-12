@@ -1,0 +1,169 @@
+#body{
+    background-color: #e8d2ab;/*Color de fondo de la pagina*/
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno interno */
+}
+
+#TituloTintoreria{
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    font-size: 60px;
+    background-color: #9b5220;
+    margin: 0; /* Eliminar margen alrededor del título */
+    padding: 10px 0; /* Agregar espaciado interno */
+}
+
+#logo{
+    transform: translate(1100px, -90px); /*mueve px a la derecha y px hacia a bajo x-y*/
+    margin: 0; /* Asegúrate de que las imágenes no tengan márgenes */
+    padding: 0; /* Sin relleno interno */
+}
+#inicio{
+    transform: translate(440px, -90px); /*mueve 50 px a la derecha y 50 hacia a bajo o arriba x-y*/
+    margin: 0; /* Asegúrate de que las imágenes no tengan márgenes */
+    padding: 0; /* Sin relleno interno */
+}
+#menu{
+    position: relative;
+    background-color: #b58e4e;
+    width: 300px; /* Ancho del menú */
+    padding: 200px 20px; /* Espaciado interno */
+    display: flex;
+    flex-direction: column; /* Elementos en columna */
+    gap: 50px; /* Espaciado entre los elementos */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top:-1300px;
+
+
+}
+#tituloMenu{
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: -150px;
+
+}
+
+
+#registro , #registroOrden, #ticket, #reporte {
+    display: flex;
+    flex-direction: column; /* Íconos y texto uno debajo del otro */
+    align-items: center; /* Centra el texto e íconos */
+    
+}
+
+#RCtitulo  , #ROtitulo, #ITtitulo, #Reportestitulo, #GestiondePrendas{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: bold;
+    color:#ffffff; /* Color del texto */
+    text-align: center; /* Alinea el texto en el centro */
+    margin-top: -60px;
+    margin-left: 200px ;
+}
+
+
+#Servicios {
+    position: relative; /* Mueve la sección respecto a su posición original */
+    top: -690px; /* Ajusta la posición vertical */
+    left: 340px; /* Ajusta la posición horizontal */
+    margin: 0; /* Elimina márgenes negativos */
+    padding: 20px; /* Espaciado interno opcional */
+    background-color: rgba(105, 101, 101, 0.498);
+}
+
+#TituloServicios {
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px; /* Espacio entre el título y el contenido */
+    margin-left: 400px;
+}
+
+#Stintoreria{
+    display: flex; /* Alinea íconos y texto juntos */
+    /*flex-direction: column; /* Ícono arriba, texto abajo */
+    align-items: center; /* Centra el contenido */
+    margin-bottom: 50px; /* Espaciado entre cada servicio */
+    left:300px;
+    top:50px;
+}
+#Stintoreria:hover img{
+    transform: scale(1.1); /* Ampliar imagen ligeramente */
+    transition: transform 0.5s ease;
+}
+#Slavado{
+    position: relative;
+    display: flex; /* Alinea íconos y texto juntos */
+    /*flex-direction: column; /* Ícono arriba, texto abajo */
+    align-items: center; /* Centra el contenido */
+    margin-bottom: 50px; /* Espaciado entre cada servicio */
+    left:600px;
+    top: 90px;
+}
+#Slavado:hover img{
+    transform: scale(1.2); /* Ampliar imagen ligeramente */
+    transition: transform 0.5s ease;
+}
+#Splanchado{
+    position: relative;
+    display: flex; /* Alinea íconos y texto juntos */
+    /*flex-direction: column; /* Ícono arriba, texto abajo */
+    align-items: center; /* Centra el contenido */
+    margin-bottom: 50px; /* Espaciado entre cada servicio */
+    left:200px;
+    top:50px;
+
+}
+#Splanchado:hover img{
+    transform: scale(1.2); /* Ampliar imagen ligeramente */
+    transition: transform 0.5s ease;
+}
+
+#Ttitulo, #Lavadotitulo, #Planchadotitulo {
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px 0px 0px 0px; /* Espaciado entre el ícono y el texto  10px arriba 10 a la derecha 0 abajo y 0 a la izquierda*/ 
+}
+#Stintoreria{
+    position: relative;
+    margin-left: -150px;
+}
+#Stintoreria, #Slavado, #Splanchado {
+    gap: 20px; /* Espaciado uniforme entre imagen y título */
+}
+
+.enlace {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Mantén el color original del texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaciado entre imagen y texto */
+}
+.enlace:hover img {
+    transform: scale(1.1); /* Ampliar imagen ligeramente */
+    transition: transform 0.5s ease;
+}
+.enlace:hover label {
+    color: rgba(0, 29, 246, 0.594) !important; /* Cambia el color del texto */ 
+    /*Se le pone important para que el css lo haga de manera forzada, es decir que css lo toma prioridad 
+    sin importar otras reglas de estilo que estamos usando*/
+}
+
+
+#footer{
+    position:relative;
+    text-align: center; /* Centra el texto o contenido inline */
+    padding: 10px; /* Espaciado interno */
+    background-color: #9b5220;
+}

@@ -1,0 +1,161 @@
+#body{
+    background-color: #e8d2ab;/*Color de fondo de la pagina*/
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno interno */
+}
+
+#imgReturn{
+    position: relative;
+    left:10px;
+    bottom:80px;
+    margin: 0; /* Asegúrate de que las imágenes no tengan márgenes */
+    padding: 0; /* Sin relleno interno */
+
+}
+#imgReturn:hover{
+    transform: scale(1.1); /* Ampliar imagen ligeramente */
+    transition: transform 0.5s ease;
+
+}
+
+#TituloRegistro{
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    font-size: 60px;
+    color:black;
+    background-color: #9b5220;
+    margin: 0; /* Eliminar margen alrededor del título */
+    padding: 10px 0; /* Agregar espaciado interno */
+
+}
+
+#imgRegistro{
+
+    position: relative;
+    left:300px;
+    bottom:80px;
+    margin: 0; /* Asegúrate de que las imágenes no tengan márgenes */
+    padding: 0; /* Sin relleno interno */
+
+    /*
+    transform: translate(1000px, -90px) ;*/
+}
+
+/*Estilos del menu*/
+#menu{
+    position: relative;
+    background-color: #b58e4e;
+    width: 300px; /* Ancho del menú */
+    padding: 200px 20px; /* Espaciado interno */
+    display: flex;
+    flex-direction: column; /* Elementos en columna */
+    gap: 50px; /* Espaciado entre los elementos */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top:-85px;
+
+
+}
+#tituloMenu{
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: -150px;
+
+}
+
+
+#registro , #registroOrden, #ticket {
+    display: flex;
+    flex-direction: column; /* Íconos y texto uno debajo del otro */
+    align-items: center; /* Centra el texto e íconos */
+    
+}
+#RCtitulo  , #ROtitulo, #ITtitulo, #Reportestitulo,#GestiondePrendas {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: bold;
+    color:#ffffff; /* Color del texto */
+    text-align: center; /* Alinea el texto en el centro */
+    margin-top: -60px;
+    margin-left: 200px ;
+}
+.enlace {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Mantén el color original del texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaciado entre imagen y texto */
+}
+.enlace:hover img {
+    transform: scale(1.1); /* Ampliar imagen ligeramente */
+    transition: transform 0.5s ease;
+}
+.enlace:hover label {
+    color: rgba(0, 29, 246, 0.594) !important; /* Cambia el color del texto */ 
+    /*Se le pone important para que el css lo haga de manera forzada, es decir que css lo toma prioridad 
+    sin importar otras reglas de estilo que estamos usando*/
+}
+
+/*Formulario*/
+
+#etiquetaNombre, #etiquetaTelefono, #etiquetaDireccion{
+    font-family:'Lucida Sans';
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+
+
+}
+
+#inputnombre,#inputtelefono,#inputdireccion{
+    border-radius: 10px;
+    border:none;
+    font-size: x-large;
+}
+
+#Nombre{
+    position: relative;
+    right:-600px;
+    bottom:650px;
+}
+
+#Telefono{
+    position: relative;
+    right:-600px;
+    bottom:600px;
+
+}
+
+#Direccion{
+    position: relative;
+    right:-600px;
+    bottom:550px;
+
+}
+
+#BtnRegistrar{
+    font-family:'Segoe UI';
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+    background-color:#26a3459c;
+    border-radius: 20px;
+    border:none;
+    position: relative;
+    right:-1300px;
+    bottom:400px;
+
+    
+}
+
+/*Hacemos el efecto de presionar boton*/
+#BtnRegistrar:active {
+    background-color: #3e8e41;
+    
+  }
